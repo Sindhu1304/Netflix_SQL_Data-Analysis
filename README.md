@@ -1,3 +1,44 @@
+# 🎬 Netflix Global Content Analysis (SQL + EDA + Python)
+
+This project analyzes Netflix's global content dataset to uncover trends in content type, country-wise contributions, genre popularity, and yearly content growth. It combines SQL queries, Python-based EDA, and visual insights to deliver business-level recommendations.
+
+
+## 🛠️ Tools & Libraries Used
+- Python (Pandas, NumPy)
+- SQLite (for SQL queries)
+- Matplotlib & Seaborn (EDA & Visualization)
+- Jupyter Notebook
+
+
+## 🧹 Data Cleaning
+Performed the following steps:
+- Handled missing values in `director`, `cast`, `country`, `rating`
+- Converted `date_added` to datetime
+- Extracted `year_added` and `month_added`
+- Split `duration` into numerical value and type
+- Normalized `listed_in` column to extract genres
+
+
+## 🔍 SQL Queries & EDA
+Used both SQLite and Pandas to run SQL-style queries and explore:
+- Movie vs TV Show count
+- Top 10 content-producing countries
+- Content release trends over years and months
+- Most common genres and ratings
+- Duration distribution for movies and TV shows
+
+
+## 📊 Visualizations
+Generated charts using Matplotlib and Seaborn:
+- Bar chart: Movies vs TV Shows
+- Line chart: Year-wise content additions
+- Pie chart: Content type proportion
+- Histogram: TV show seasons
+- Bar chart: Top genres
+- Monthly trend of content addition
+
+
+
 ## 📌 Key Insights & Recommendations
 
 - 🎬 **Movies Dominate the Platform**  
