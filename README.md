@@ -1,4 +1,7 @@
+
 # 🎬 Netflix Global Content Analysis (SQL + EDA + Python)
+<img width="3000" height="2003" alt="image" src="https://github.com/user-attachments/assets/c32b5b0d-8a0e-4b80-a548-6be7d0aef59f" />
+
 
 This project analyzes Netflix's global content dataset to uncover trends in content type, country-wise contributions, genre popularity, and yearly content growth. It combines SQL queries, Python-based EDA, and visual insights to deliver business-level recommendations.
 
